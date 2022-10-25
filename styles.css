@@ -1,0 +1,144 @@
+#title{
+    background-color:#ff4c68 ;
+    color: #fff;
+}
+
+.heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+   font-size: 3.5rem ;
+   line-height: 1.5;
+
+}
+#cta h3{
+font-family: 'Montserrat-Black', sans-serif;
+font-size: 3rem !important;
+font-weight: 900 !important;
+
+}
+
+h2{
+font-family: "Montserrat-Black",sans-serif;
+font-weight: 900 !important;
+padding: 0 10%;
+font-size: 2.5rem !important;
+
+}
+
+.container-fluid{
+ padding: 3% 15% 7%!important;
+}
+
+/* navbar */
+.navbar{
+    padding-bottom: 4.5rem !important;
+}
+
+.navbar-brand{
+    font-family:"Ubuntu", "sans-serif";
+    font-size: 2.5rem !important;
+}
+.nav-item{
+    padding:0 18px;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+
+/* download button */
+
+.download{
+    margin: 5% 3% 5% 0;
+}
+
+/* image */
+
+.title-image{
+    width: 40%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+    max-width: 300px;
+}
+.testm{
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+/* features */
+
+#features{
+    text-align: center;
+    padding: 10% 15%;
+    background-color: #fff;
+    position: relative;
+    
+    
+}
+#features p{
+    color: #a7a7a7;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 2%;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+    padding: 10% 0
+} 
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+    padding: 8%;
+}
+
+#footer{
+    padding: 5%;
+    text-align: center;
+}
+#footer p{
+    margin-top: 10px;
+}
+#footer i{
+    margin: 10px;
+}
+
+@media (max-width:1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
+}
